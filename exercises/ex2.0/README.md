@@ -1,11 +1,11 @@
 ## Modify travel object page based on Image
 
 1. Close the previous task and start a new one. Select **Plan Mode**.
-2. Download image [process travels](./images/travel-object-page.png).
+2. Download image [travel-object-page](./images/travel-object-page.png).
 
     ![download](./images/download.png)
 
-3. Drag and drop image(process-travels.png) to Explorer.
+3. Drag and drop image(travel-object-page.png) to Explorer.
 
     ![explorer](./images/explorer.png)
 
