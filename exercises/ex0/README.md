@@ -87,50 +87,14 @@ Click **OK** and your window will reload
 
      <img src="./images/ex0img15.png" alt="Cline browser" width="50%"/>
 
-## Install and Configure MCP Servers
+## Configure MCP Server
 
-1. **Install MCP Servers and SAP Fiori Generator**
-
-   - Go to the top menu and select **Terminal > New Terminal**.
-
-   ![image](images/ex0img16.png)
-
-   - Install the **Fiori MCP Server**:
-
-   ![Install MCP Servers](images/ex0img17.png)
-
-   Execute
-
-   ```bash
-   npm install -g @sap-ux/fiori-mcp-server@0.4.1
-   ```
-
-   - Install the **CAP MCP Server**:
-
-   Execute
-
-   ```bash
-   npm install -g @cap-js/mcp-server@latest
-   ```
-
-   - Install the **SAP Fiori application generator**:
-
-   Execute
-
-   ```bash
-   npm install -g @sap/generator-fiori@latest
-   ```
-
-2. Reload SBAS
-
-3. **Configure MCP Server**
-
-   - In the Cline panel, Click the **MCP Servers** icon in the top-right corner.
+1. In the Cline panel, Click the **MCP Servers** icon in the top-right corner.
    - Click on Configure.
    - Select **Configure MCP Servers**.  
      ![Cline MCP server setting](./images/ex0img18.png)
 
-4. **Update `cline_mcp_settings.json`**
+2. **Update `cline_mcp_settings.json`**
 
    - Configure MCP servers by editing your Cline MCP settings file (`cline_mcp_settings.json`):
    - Copy below content and Save file.
