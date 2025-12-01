@@ -24,4 +24,4 @@
 9. When the task is complete. Verify data is loaded on list report table without pressing GO button.
 
 
-Continue to - [Exercise 1.2 - Add table actions from design to list report table](../ex1.2/README.md)
+Continue to - [Exercise 1.2 - Add destination column to List Report table](../ex1.2/README.md)
