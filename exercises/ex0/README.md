@@ -99,22 +99,38 @@ Click **OK** and your window will reload
    - Configure MCP servers by editing your Cline MCP settings file (`cline_mcp_settings.json`):
    - Copy below content and Save file.
      ```json
-     {
-       "mcpServers": {
-         "fiori-mcp": {
-           "type": "stdio",
-           "timeout": 600,
-           "command": "npx",
-           "args": ["-y", "@sap-ux/fiori-mcp-server@0.4.1"]
-         },
-         "cds-mcp": {
-           "type": "stdio",
-           "command": "npx",
-           "args": ["-y", "@cap-js/mcp-server"],
-           "env": {}
-         }
-       }
-     }
+      {
+        "mcpServers": {
+          "fiori-mcp": {
+            "type": "stdio",
+            "timeout": 600,
+            "command": "npx",
+            "args": [
+              "-y",
+              "@sap-ux/fiori-mcp-server@0.4.1"
+            ],
+            "autoApprove": [
+              "search_docs",
+              "get_functionality_details",
+              "list_fiori_apps",
+              "list_functionality"
+            ]
+          },
+          "cds-mcp": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+              "-y",
+              "@cap-js/mcp-server"
+            ],
+            "env": {},
+            "autoApprove": [
+              "search_docs",
+              "search_model"
+            ]
+          }
+        }
+      }
      ```
      - close file `cline_mcp_settings.json`.
 

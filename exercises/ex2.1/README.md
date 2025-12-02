@@ -3,8 +3,8 @@
 1. In the Cline panel, select **Plan Mode**.
 2. Enter the following prompt in the task input:  
    ```
-   Create a new field, "TravelNotes," and extend the Fiori app by adding a custom section to the travel object page.
-   This custom section should include a "RichTextEditor" with metadata building block to edit travel notes.
+   Create a new field "TravelNotes" and add a custom section to the travel object page.
+   This custom section should contain travel notes as a "RichTextEditor" building block.
    Use fiori mcp.
    ```
 3. Press `Enter` to start the task.
@@ -41,7 +41,7 @@
 
 3. Travel notes is not a Rich Text Editor. Execute below prompt and verify `RichTextEditorWithMetadata` code in the xml fragment
       ```
-      use "RichTextEditorWithMetadata"
+      use "RichTextEditorWithMetadata" building block for travel notes. use fiori mcp
       ```
 
       ![notrichtext](./images/not-rich-text.png)
@@ -53,8 +53,8 @@
                   metaPath="TravelNotes" />
       ```
 
-4. Cannot edit travel notes RichTextEditor building block. 
+4. No `Edit` button on travel object page.
       Execute prompt 
       ```
-      Travel notes with RichTextEditor is not editable
+      Enable draft mode for travel entity
       ```
