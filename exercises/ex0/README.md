@@ -180,6 +180,13 @@ Click **OK** and your window will reload
 
 9. Save file `cdsRules.md`.
 
+## Enable Auto-Approve settings for Cline
+
+  - Enable auto-approval for file modifications from Cline.  
+  - Enable auto-approval for MCP server usage. 
+
+    ![Cline add rules](./images/ex0img21.png)
+
 ## Summary
 
 With the setup procedure done, you now have completed:
