@@ -17,7 +17,7 @@ On the SAP Build landing page, click button **Switch Product** in the top right 
 
 ![Create Dev Space](images/ex0img1.png)
 
-Enter a name for your development space and select application profile Full Stack Cloud Application.
+Enter a name `AgenticAppDevelopment` for your development space and select application profile Full Stack Cloud Application.
 
 ![image](images/ex0img2.png)
 
