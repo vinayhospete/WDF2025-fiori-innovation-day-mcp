@@ -57,18 +57,18 @@ Click **OK** and your window will reload
 
   <img src="images/ex0img8.png" alt="image" width="30%"/>
 
-3. Click on `Lets Go` button.
-4. Close all cline notifications.
+4. Click on `Lets Go` button.
+5. Close all cline notifications.
 
   <img src="images/ex0img9.png" alt="image" width="30%"/>
 
-5. **Collapse Mcp responses**
+6. **Collapse Mcp responses**
    - In the **Cline Settings**, Click on the **Feature Settings** section.
    - Check the option `Collapse MCP Responses`
 
 <img src="./images/ex0img14.png" alt="collapse mcp response" width="30%"/>
 
-6. **Disable Browser Tool Usage**
+7. **Disable Browser Tool Usage**
 
    - In the **Cline Settings**, Click on the **Browser** section.
    - Check the option **Disable browser tool usage**.
@@ -87,8 +87,7 @@ Click **OK** and your window will reload
 With the setup procedure done, you now have completed:
 
 - Access to SAP Business Application Studio
-- Creation of your development space
-- Configure AI client - Cline
+- Configure Cline
 
 Continue to - [Exercise 2 - Generate CAP Project and Fiori List Report App based on Image](../ex1.0/README.md)
 

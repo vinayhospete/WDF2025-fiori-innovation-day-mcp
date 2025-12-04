@@ -46,7 +46,7 @@
     1. Would you like to specify a project name? `travel-management`
     2. Would you like to provide a Fiori app name? `process-travels`
     3. Would you like to include sample data? `yes`
-    4. Would you like to specify any additional features beyond what's shown in Image? `no additional features required beyond Image`
+    4. Would you like to specify any additional features beyond what's shown in Image? `no additional features required`
 
 7. Once the implementation plan is ready, review it.
 
@@ -55,20 +55,9 @@
 
    ![implementation plan](./images/implementation-plan.png)
 
-8. Switch to **Act mode**.
+8. Switch to **Act mode**. Cline executes the implementation plan. 
 
-9. Cline executes the implementation plan with the following steps:  
-
-    **Monitor the execution process and manually approve Cline requests whenever prompted to proceed**
-    ---
-   - Uses the cds-mcp server to generate the data model and service. When prompted, click **Approve** to allow this action.
-
-   - Before saving the generated data model to your project, Cline will ask you to review and confirm the content. Click **Save** to proceed. 
-
-    Note: To Auto-approve future save requests -> Activate both `Edit project files` and `Edit all files` as shown below.
-
-    ![edit file autoapprove](./images/edit-file-autoapprove.png)
----
+9. **Cline may request** approval to use MCP servers. Click **Approve**.
 
 10. After completing all the planned steps, the application should automatically open in your browser, displaying a travel list report application that matches the list report Image.
 
@@ -86,9 +75,15 @@
 
    ![watch script](./images/watch-script.png)
 
-2) If the application prompts for authentication, use username: `dummy` and password: `dummy`
+2) If HTTP port 4004 is already in use, press `Enter` to restart preview with a different port number. 
+    
+    Note: Ensure that you either use 4004 or the system-assigned port for the preview. Check terminal instances and delete duplicate process running to preview application. 
 
-3) In the browser, If your application does not load or displays a blank page:
+    ![4004 port used](./images/port4004used.png)
+
+3) If the application prompts for authentication, use username: `dummy` and password: `dummy`
+
+4) In the browser, If your application does not load or displays a blank page:
 
 - Open Developer Tools in your browser to check the error message.
   - Windows: Press `F12` or `Ctrl + Shift + I`
