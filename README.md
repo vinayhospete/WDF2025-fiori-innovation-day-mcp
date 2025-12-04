@@ -52,9 +52,6 @@ We are using Cline as AI client within VSCode and Anthropic claude-4-sonnet LLM 
 Begin your exercises here. At the end of each section, there is a link to continue to the next section.
 
 - [Getting Started - Setting up your AI Development Environment](./exercises/ex0/)
-    - [Accessing SAP Business Application Studio](exercises/ex0/README.md#accessing-sap-business-application-studio-sbas)
-    - [Creating the Development Space](exercises/ex0/README.md#creating-the-development-space)
-    - [Configure Cline AI client](exercises/ex0/README.md#configure-cline-ai-client)
 
 - [Exercise 1 - Create CAP Project and Fiori List Report App based on Image](./exercises/ex1.0/)
     - [Exercise 1.1 Enable automatic data loading in List Report](./exercises/ex1.1/)
