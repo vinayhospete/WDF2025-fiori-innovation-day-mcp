@@ -63,33 +63,33 @@ Click **OK** and your window will reload
 2. Download [claude-dev VSIX](./claude-dev-3.36.0%201.vsix).
 3. Drag and drop the claude-dev VSIX to the Extensions pane. Wait until cline extension is installed.
 
-![image](images/ex0img7.png)
+<img src="./images/ex0img7.png" alt="collapse mcp response" width="70%"/>
 
 4. Open Cline.
 
-  ![image](images/ex0img22.png)
+  <img src="./images/ex0img22.png" alt="collapse mcp response" width="30%"/>
 
 5. choose `Use your own API Key`, select API Provider `SAP AI Core`, selectmodel `anthropic--claude-sonnet-4`.
 
-<img src="images/ex0img8.png" alt="image" width="60%"/>
+<img src="images/ex0img8.png" alt="image" width="30%"/>
 
 6. Click on `Lets Go` button.
 7. Close all cline notifications.
 
-<img src="images/ex0img9.png" alt="image" width="60%"/>
+<img src="images/ex0img9.png" alt="image" width="30%"/>
 
 8. **Collapse Mcp responses**
    - In the **Cline Settings**, Click on the **Feature Settings** section.
    - Check the option `Collapse MCP Responses`
 
-<img src="./images/ex0img14.png" alt="collapse mcp response" width="50%"/>
+<img src="./images/ex0img14.png" alt="collapse mcp response" width="30%"/>
 
 9. **Disable Browser Tool Usage**
 
    - In the **Cline Settings**, Click on the **Browser** section.
    - Check the option **Disable browser tool usage**.
 
-     <img src="./images/ex0img15.png" alt="Cline browser" width="50%"/>
+     <img src="./images/ex0img15.png" alt="Cline browser" width="30%"/>
 
 ## Configure MCP Server
 
@@ -189,7 +189,7 @@ Click **OK** and your window will reload
   - Enable auto-approval for file modifications from Cline.  
   - Enable auto-approval for MCP server usage. 
 
-    ![Cline add rules](./images/ex0img21.png)
+  <img src="./images/ex0img21.png" alt="Cline browser" width="40%"/>
 
 ## Summary
 

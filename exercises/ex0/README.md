@@ -47,36 +47,40 @@ Click **OK** and your window will reload
 
 1. Open Cline
 
-  ![image](images/ex0img22.png)
+  <img src="./images/ex0img22.png" alt="collapse mcp response" width="30%"/>
 
-2. choose `Use your own API Key`, select API Provider `SAP AI Core`, selectmodel `anthropic--claude-sonnet-4`.
+2. choose `Use your own API Key`.
 
-  <img src="images/ex0img8.png" alt="image" width="60%"/>
+  <img src="./images/ex0img7.png" alt="collapse mcp response" width="70%"/>
+
+3. select API Provider `SAP AI Core`, selectmodel `anthropic--claude-sonnet-4`.
+
+  <img src="images/ex0img8.png" alt="image" width="30%"/>
 
 3. Click on `Lets Go` button.
 4. Close all cline notifications.
 
-  <img src="images/ex0img9.png" alt="image" width="60%"/>
+  <img src="images/ex0img9.png" alt="image" width="30%"/>
 
 5. **Collapse Mcp responses**
    - In the **Cline Settings**, Click on the **Feature Settings** section.
    - Check the option `Collapse MCP Responses`
 
-<img src="./images/ex0img14.png" alt="collapse mcp response" width="50%"/>
+<img src="./images/ex0img14.png" alt="collapse mcp response" width="30%"/>
 
 6. **Disable Browser Tool Usage**
 
    - In the **Cline Settings**, Click on the **Browser** section.
    - Check the option **Disable browser tool usage**.
 
-  <img src="./images/ex0img15.png" alt="Cline browser" width="50%"/>
+  <img src="./images/ex0img15.png" alt="Cline browser" width="30%"/>
 
 ## Enable Auto-Approve settings for Cline
 
   - Enable auto-approval for file modifications from Cline.  
   - Enable auto-approval for MCP server usage. 
 
-  ![Cline add rules](./images/ex0img21.png)
+  <img src="./images/ex0img21.png" alt="Cline browser" width="40%"/>
 
 ## Summary
 
