@@ -4,9 +4,11 @@ As a particpant of the hands-on, you should already be setup with access to the 
 
 ## Accessing SAP Business Application Studio (SBAS)
 
-Navigate to https://lcapteched.eu10.build.cloud.sap/lobby
+- Navigate to https://lcapteched.eu10.build.cloud.sap/lobby
 
-<span style="color:red">**NOTE: BAS AI is only supported on Chrome. Please ensure you use the Chrome Browser.** </span>
+- Enter SBAS login credentials provided to you during the hands-on.
+
+  ![image](images/ex0img23.png)
 
 ## Accessing the Dev Space Manager
 
